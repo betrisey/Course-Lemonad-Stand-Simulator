@@ -13,6 +13,10 @@
 		7E33F29B19C773FF006CAADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E33F29A19C773FF006CAADD /* Images.xcassets */; };
 		7E33F29E19C773FF006CAADD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E33F29C19C773FF006CAADD /* LaunchScreen.xib */; };
 		7E33F2AA19C773FF006CAADD /* LemonadeStandSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E33F2A919C773FF006CAADD /* LemonadeStandSimulatorTests.swift */; };
+		7E93C8F919C7826800D33282 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E93C8F819C7826800D33282 /* Client.swift */; };
+		7E93C8FD19C7869300D33282 /* cold.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E93C8FA19C7869300D33282 /* cold.png */; };
+		7E93C8FE19C7869300D33282 /* mild.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E93C8FB19C7869300D33282 /* mild.png */; };
+		7E93C8FF19C7869300D33282 /* warm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E93C8FC19C7869300D33282 /* warm.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		7E33F2A319C773FF006CAADD /* LemonadeStandSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E33F2A819C773FF006CAADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E33F2A919C773FF006CAADD /* LemonadeStandSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandSimulatorTests.swift; sourceTree = "<group>"; };
+		7E93C8F819C7826800D33282 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		7E93C8FA19C7869300D33282 /* cold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cold.png; sourceTree = "<group>"; };
+		7E93C8FB19C7869300D33282 /* mild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mild.png; sourceTree = "<group>"; };
+		7E93C8FC19C7869300D33282 /* warm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warm.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 			children = (
 				7E33F29319C773FF006CAADD /* AppDelegate.swift */,
 				7E33F29519C773FF006CAADD /* ViewController.swift */,
+				7E93C8F819C7826800D33282 /* Client.swift */,
 				7E33F29719C773FF006CAADD /* Main.storyboard */,
 				7E33F29A19C773FF006CAADD /* Images.xcassets */,
 				7E33F29C19C773FF006CAADD /* LaunchScreen.xib */,
@@ -90,6 +99,9 @@
 		7E33F29119C773FF006CAADD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E93C8FA19C7869300D33282 /* cold.png */,
+				7E93C8FB19C7869300D33282 /* mild.png */,
+				7E93C8FC19C7869300D33282 /* warm.png */,
 				7E33F29219C773FF006CAADD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E33F29919C773FF006CAADD /* Main.storyboard in Resources */,
+				7E93C8FE19C7869300D33282 /* mild.png in Resources */,
+				7E93C8FF19C7869300D33282 /* warm.png in Resources */,
+				7E93C8FD19C7869300D33282 /* cold.png in Resources */,
 				7E33F29E19C773FF006CAADD /* LaunchScreen.xib in Resources */,
 				7E33F29B19C773FF006CAADD /* Images.xcassets in Resources */,
 			);
@@ -214,6 +229,7 @@
 			files = (
 				7E33F29619C773FF006CAADD /* ViewController.swift in Sources */,
 				7E33F29419C773FF006CAADD /* AppDelegate.swift in Sources */,
+				7E93C8F919C7826800D33282 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				7E33F2AF19C773FF006CAADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E33F2B019C773FF006CAADD /* Build configuration list for PBXNativeTarget "LemonadeStandSimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				7E33F2B219C773FF006CAADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
